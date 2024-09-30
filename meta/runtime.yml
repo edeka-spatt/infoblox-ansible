@@ -1,2 +1,36 @@
 ---
 requires_ansible: ">=2.15.0"
+action_groups:
+  all:
+    - infoblox.nios_modules.nios_a_record
+    - infoblox.nios_modules.nios_aaaa_record
+    - infoblox.nios_modules.nios_cname_record
+    - infoblox.nios_modules.nios_dns_view
+    - infoblox.nios_modules.nios_dtc_lbdn
+    - infoblox.nios_modules.nios_dtc_monitor_http
+    - infoblox.nios_modules.nios_dtc_monitor_icmp
+    - infoblox.nios_modules.nios_dtc_monitor_pdp
+    - infoblox.nios_modules.nios_dtc_monitor_sip
+    - infoblox.nios_modules.nios_dtc_monitor_snmp
+    - infoblox.nios_modules.nios_dtc_monitor_tcp
+    - infoblox.nios_modules.nios_dtc_pool
+    - infoblox.nios_modules.nios_dtc_server
+    - infoblox.nios_modules.nios_dtc_topology
+    - infoblox.nios_modules.nios_fixed_address
+    - infoblox.nios_modules.nios_host_record
+    - infoblox.nios_modules.nios_member
+    - infoblox.nios_modules.nios_mx_record
+    - infoblox.nios_modules.nios_naptr_record
+    - infoblox.nios_modules.nios_network
+    - infoblox.nios_modules.nios_network_view
+    - infoblox.nios_modules.nios_nsgroup
+    - infoblox.nios_modules.nios_nsgroup_delegation
+    - infoblox.nios_modules.nios_nsgroup_forwardingmember
+    - infoblox.nios_modules.nios_nsgroup_forwardstubserver
+    - infoblox.nios_modules.nios_nsgroup_stubmember
+    - infoblox.nios_modules.nios_ptr_record
+    - infoblox.nios_modules.nios_range
+    - infoblox.nios_modules.nios_restartservices
+    - infoblox.nios_modules.nios_srv_record
+    - infoblox.nios_modules.nios_txt_record
+    - infoblox.nios_modules.nios_zone
